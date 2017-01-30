@@ -9,6 +9,9 @@ gem 'sqlite3', group: [:development, :test]
 #Use bootstrap library for styles
 gem 'bootstrap-sass', '3.3.1'
 
+#Use fontawesome library for icons
+gem 'font-awesome-sass' 
+
 #Use PostgreSql as the database for production
 group :production do
   gem 'pg'
